@@ -11,7 +11,7 @@ A minha squad leva o nome de **Ada Lovelace**, considerada a primeira programado
 ## 🧮 Ada Lovelace  
 
 ![Ilustração Ada Lovelace](Ilustração-Ada_Lovelace.png)  
-*Imagem: Gerada através de um prompt autoral no Chat GPT.*  
+*Imagem: Gerada através de um prompt autoral no ChatGPT.*  
 
 ### 🌟 Quem foi  
 
@@ -44,3 +44,23 @@ Seu trabalho ajudou a abrir caminhos para a computação moderna em uma época e
 * [WIKIPÉDIA - Ada Lovelace](https://pt.wikipedia.org/wiki/Ada_Lovelace)
 
 ---
+
+## 🧠 O que aprendi sobre Git e GitHub  
+
+Durante essa atividade, pratiquei alguns dos principais comandos do Git e entendi melhor como funciona o versionamento de projetos na prática. Também consegui experimentar o fluxo de criação de branches, commits e publicação no GitHub (e sobrevivi sem quebrar nada no processo).
+
+### 🛠️ Comandos utilizados
+
+| Comando                          | Função                                                                              |
+| -------------------------------- | ----------------------------------------------------------------------------------- |
+| `git init`                       | Inicializa um repositório Git dentro da pasta do projeto.                           |
+| `code .`                         | Abre o projeto atual no VSCode para edição dos arquivos.                            |
+| `git checkout nome-da-branch`    | Permite trocar entre branches existentes.                                           |
+| `git checkout -b nome-da-branch` | Cria uma nova branch e já muda para ela automaticamente.                            |
+| `git pull`                       | Atualiza o repositório local com as alterações mais recentes do repositório remoto. |
+| `git add .`                      | Adiciona os arquivos modificados para a área de preparação do commit.               |
+| `git commit -m "mensagem"`       | Cria um commit com uma mensagem descrevendo as alterações realizadas.               |
+| `git push`                       | Envia os commits do repositório local para o GitHub.                                |
+| `git push --set-upstream origin nome-da-branch` | Envia a nova branch para o GitHub e define a branch remota como referência para futuros pushes e pulls. |
+
+Também pratiquei o uso de **Pull Requests** e **Merge** diretamente no GitHub. Com isso, consegui entender melhor como as branches podem ser utilizadas para desenvolver alterações separadamente antes de juntá-las à branch principal do projeto. Esse processo ajuda na organização, revisão de mudanças e colaboração entre pessoas desenvolvedoras.
